@@ -1,0 +1,8 @@
+/* Custom container */
+.container-fixed {
+  margin: 0 auto;
+  max-width: 780px;
+}
+.container-fixed > hr {
+  margin: 30px 0;
+}

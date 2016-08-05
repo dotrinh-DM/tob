@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Of Beauty - Form Register</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<div class="container wrapper">
+
+    <header id="masthead" class="site-header">
+        <h1 class="site-title">
+            <a class="logo text-hide" href="/" rel="home">Top Of Beauty</a>
+        </h1>
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+            <div class="menu-main-nav-container">
+                <ul id="menu-main-nav" class="menu nav-menu">
+                    <li id="menu-item-1" class="menu-item"><a href="form-register.html">Đăng ký</a></li>
+                    <li id="menu-item-2" class="menu-item"><a href="#">Xem & Bình chọn</a></li>
+                    <li id="menu-item-3" class="menu-item"><a href="#">Giải thưởng</a></li>
+                    <li id="menu-item-4" class="menu-item"><a href="#">Ban giám khảo</a></li>
+                    <li id="menu-item-5" class="menu-item"><a href="#">Nhà tài trợ</a></li>
+                    <li id="menu-item-6" class="menu-item"><a href="form-upanh.html">Đăng nhập/Up ảnh</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="site-main" id="main">
+        <div class="banner"><img src="images/banner.png" alt=""/></div>
+
+        <h3 class="title">Đăng ký</h3>
+        <div class="row">
+            <div class="col-xs-8">
+                <ul class="form-list form-list-register">
+                    <li class="fields">
+                        <div class="field">
+                            <label for="">Email truy nhập: </label>
+                            <input type="text"/>
+                        </div>
+                    </li>
+                    <li class="fields">
+                        <div class="field">
+                            <label for="">Mật khẩu: </label>
+                            <input type="password"/>
+                        </div>
+                    </li>
+                    <li class="fields">
+                        <div class="field">
+                            <label for="">Gõ lại mật khẩu: </label>
+                            <input type="password"/>
+                        </div>
+                    </li>
+                    <li class="wide">
+                        <label for="">Bạn là: </label>
+                        <div class="group-radio">
+                            <div class="radioitem">
+                                <input type="radio" id="rd1" name="banla" value="nhataomau" /> <label for="rd1">Nhà tạo mẫu</label>
+                            </div>
+                            <div class="radioitem">
+                                <input type="radio" id="rd2" name="banla" value="nguoimau"  /> <label for="rd2">Người mẫu</label>
+                            </div>
+                            <div class="radioitem">
+                                <input type="radio" id="rd3" name="banla" value="salontoc"  /> <label for="rd3">Salon tóc</label>
+                            </div>
+                            <div class="radioitem">
+                                <input type="radio" id="rd4" name="banla" value="nhiepanhgia"  /> <label for="rd4">Nhiếp ảnh gia</label>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </li>
+                    <li class="wide">
+                        <label for="">Tên / Nghệ danh: </label>
+                        <input type="text"/>
+                    </li>
+                    <li class="fields">
+                        <div class="field">
+                            <label for="">Họ và tên đệm:  </label>
+                            <input type="text"/>
+                        </div>
+                        <div class="field">
+                            <label for="">Tên: </label>
+                            <input type="text"/>
+                        </div>
+                    </li>
+                    <li class="fields">
+                        <div class="field">
+                            <label for="">Di động:  </label>
+                            <input type="text"/>
+                        </div>
+                        <div class="field">
+                            <label for="">Tên Facebook: </label>
+                            <input type="text"/>
+                        </div>
+                    </li>
+                    <li class="wide">
+                        <label for="">Link Facebook: </label>
+                        <input type="text"/>
+                    </li>
+                    <li class="wide">
+                        <label for="">Địa chỉ: </label>
+                        <input type="text"/>
+                    </li>
+                    <li class="fields">
+                        <div class="field">
+                            <label for="">Thành phố:  </label>
+                            <select name="" id="">
+                                <option value="">Ha Noi</option>
+                                <option value="">Ha Nam</option>
+                                <option value="">Nam Dinh</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="">Quận: </label>
+                            <select name="" id="">
+                                <option value="">Ba Dinh</option>
+                                <option value="">Hoan Kiem</option>
+                                <option value="">Thanh Xuan</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="wide">
+                        <label for="">Kỹ thuật thực hiện </label>
+                        <textarea name="" cols="30" rows="10"></textarea>
+                    </li>
+                    <li class="wide">
+                        <label for="">Nhập mã xác thực </label>
+                        <input type="text" class="captcha"/>
+                    </li>
+                    <li class="wide">
+                        <label for="">&nbsp;</label>
+                        <button>Xác nhận và tiếp tục</button>
+                    </li>
+
+                    <li class="avatar">
+                        <label for="avatar">Ảnh đại diện: &nbsp;&nbsp; <img src="images/626201462031AM_Avatar.png" alt="Avatar"/></label>
+                        <input type="file" id="avatar"/>
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <ul class="menu nav-footer">
+                <li><a href="#">Thể lệ cuộc thi</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+                <li><a href="#">Ban giám khảo</a></li>
+                <li><a href="#">Nhà tài trợ</a></li>
+            </ul>
+            <div class="social">
+                <a href="#">Top of Beauty trên  <img src="images/facebook-icon.png" alt="Facebook"/></a>
+                <a href="#">Top of Beauty trên  <img src="images/youtube-icon.png" alt="Youtube"/></a>
+            </div>
+            <div class="sponsor-logo">
+                <img src="images/sponsor.png" alt=""/>
+            </div>
+        </div>
+    </footer>
+
+
+</div>
+
+</body>
+</html>

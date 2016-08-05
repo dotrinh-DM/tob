@@ -1,0 +1,1 @@
+INSERT INTO `tbl_config` (`alias`, `value`) VALUES ('num_show_other_news', '5');
