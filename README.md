@@ -2,6 +2,12 @@
 
 Dự án này do Toàn Nguyễn (leader), Đô Trịnh (dev), Tùng Khắc (dev) cùng nhau làm với mục đích startup. Dự án đã mang lại lợi ích to lớn cho doanh nghiệp nhưng sau đó đã phải tạm dừng vì lý do cá nhân. Xin được chia sẻ mã nguồn để mọi người tham khảo và học hỏi.
 
+#### Profile Page
+![Alt text](https://github.com/dotrinhdev/tob/blob/master/html/profile.png)
+
+#### Detail Page
+![Alt text](https://github.com/dotrinhdev/tob/blob/master/html/detail.png)
+
 ## Getting Started
 
 Nếu bạn có kinh nghiệm về codeigniter thì chắc chắn dễ dàng cài đặt mã nguồn.
